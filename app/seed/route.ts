@@ -26,8 +26,6 @@ async function seedUsers() {
     }),
   );
 
-  console.log("inserted users", insertedUsers);
-
   return insertedUsers;
 }
 
